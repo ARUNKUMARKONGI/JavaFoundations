@@ -6,18 +6,17 @@ public class BigIntegerExample {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter the first big integer: ");
-        String num1 = sc.next();
+        String num1 = sc.nextLine();
 
         System.out.print("Enter the second big integer: ");
         String num2 = sc.next();
 
-        // Create BigInteger objects
-        BigInteger bigInteger1 = new BigInteger(num1);
-        BigInteger bigInteger2 = new BigInteger(num2);
+        BigInteger b1 = new BigInteger(num1);
+        BigInteger b2 = new BigInteger(num2);
 
         // Perform operations
-        BigInteger sum = bigInteger1.add(bigInteger2);
-        BigInteger product = bigInteger1.multiply(bigInteger2);
+        BigInteger sum = b1.add(b2);
+        BigInteger product = b1.multiply(b2);
 
         // Display results
         System.out.println("Sum: " + sum);
