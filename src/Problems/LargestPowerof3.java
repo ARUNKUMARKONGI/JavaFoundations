@@ -1,6 +1,7 @@
 package Problems;
 import java.util.Scanner;
-public class LargestPowerof3 {
+import java.util.Scanner;
+public class LargestPowerof3{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
@@ -18,3 +19,6 @@ public class LargestPowerof3 {
         return (int) Math.pow(base, power - 1);
     }
 }
+
+ /* int power = (int) (Math.log(num) / Math.log(3));
+        return (int) Math.pow(3, power);*/
