@@ -1,6 +1,6 @@
 package InputOutput;
 
-class LongExample {
+class DataTypes {
     public static void main(String[] args) {
         long exampleLong = 123456789012345678L;
         int myNum = 5;

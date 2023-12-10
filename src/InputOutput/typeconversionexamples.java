@@ -18,7 +18,7 @@ public class typeconversionexamples {
         System.out.println(x+y);
 
         int sum=10;
-        sum = sum + Character.getNumericValue(ch);
+        sum = sum + Character.getNumericValue(ch); //returns unicode value
         //sum = sum+ Integer.parseInt(String.valueOf(ch));
         System.out.println(sum);
 
@@ -34,6 +34,11 @@ public class typeconversionexamples {
         String str2 = "" + ch;
         String str3= str+str2;
         System.out.println(str3);
+
+        String rollNo = "123456778990867654345676543456543654346765467654356543456545675";
+        char result1 = rollNo.charAt(5);
+        int result2 = Integer.parseInt(String.valueOf(rollNo.charAt(5)));
+        System.out.println(result2);
     }
 
 }
