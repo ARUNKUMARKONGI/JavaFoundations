@@ -1,16 +1,13 @@
+package Problems;
 import java.util.Scanner;
-
 public class NextSmallestPalindrome {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter a number: ");
         long num = scanner.nextLong();
-
         long res = PalindromeChecker(num);
 
         System.out.println("Next Smallest Palindrome: " + res);
-
         scanner.close();
     }
     private static long PalindromeChecker(long num) {

@@ -1,5 +1,4 @@
 package InputOutput;
-
 public class typeconversionexamples {
     public static void main(String[] args) {
         //Assign text "300" to String variable
@@ -12,7 +11,6 @@ public class typeconversionexamples {
         //print variable c
         int x=Integer.parseInt(a);
         int y=Integer.parseInt(a);
-        System.out.println("Variable x value :"+x);
         System.out.println("Variable x value :"+x);
         System.out.println("Variable c Value :"+c);
         System.out.println(x+y);
@@ -27,11 +25,12 @@ public class typeconversionexamples {
         String myStr = "Hello";
         char result = myStr.charAt(0);
         int res = myStr.charAt(0);
-        System.out.println(res);
+        System.out.println("res is: "+res);
 
       //converting char to String
         String str="griet";
         String str2 = "" + ch;
+       // String str2 = String.valueOf(ch);
         String str3= str+str2;
         System.out.println(str3);
 
