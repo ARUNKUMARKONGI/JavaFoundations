@@ -38,6 +38,8 @@ public class typeconversionexamples {
         char result1 = rollNo.charAt(5);
         int result2 = Integer.parseInt(String.valueOf(rollNo.charAt(5)));
         System.out.println(result2);
+
+
     }
 
 }

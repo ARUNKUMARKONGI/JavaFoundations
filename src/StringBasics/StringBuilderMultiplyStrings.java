@@ -26,4 +26,5 @@ public class StringBuilderMultiplyStrings {
 }
 //try to return just result, in that case make return type as StringBuilder and
 //in main function, String result = String.ValueOf(concatenateString(inputString,k));
-
+//or StringBuilder result = concatenateString(inputString,k);
+ //System.out.println(result); //compiler automatically converts to toString
