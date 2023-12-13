@@ -1,4 +1,4 @@
-package MoodlePrograms;
+package StringBasics.Problems;
 import java.util.Scanner;
 public class EncryptString {
         public static void main(String[] args) {

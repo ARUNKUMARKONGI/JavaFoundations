@@ -1,6 +1,6 @@
-package MoodlePrograms;
+package StringBasics.Problems;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class MultiplyStrings {
     public static void main(String[] args) {
