@@ -7,17 +7,17 @@ public class EncryptString {
             //System.out.println("Enter a name: ");
             String name = scanner.nextLine().trim();
 
-            StringBuilder result = encryptName(name);
+            StringBuilder result = encryptName(new StringBuilder(name));
             System.out.println(result);
 
             scanner.close();
         }
 
-        private static StringBuilder encryptName(String name) {
+        private static StringBuilder encryptName(StringBuilder name) {
             String alpha = "abcdefghijklmnopqrstuvwxyz";
             StringBuilder newName = new StringBuilder();
 
-            for (char c : name.toCharArray()) {
+            for (char c : name.toString().toCharArray()) {
                 if (Character.isLetter(c)) {
                     int location = alpha.indexOf(Character.toLowerCase(c));
                     char newChar = alpha.charAt((location + 1) % 26);

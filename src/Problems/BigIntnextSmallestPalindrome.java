@@ -1,6 +1,7 @@
 package Problems;
 import java.math.BigInteger;
 import java.util.Scanner;
+
 public class BigIntnextSmallestPalindrome {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
@@ -35,7 +36,7 @@ public class BigIntnextSmallestPalindrome {
 
 /*import java.util.Scanner;
 
-public class NextSmallestPalindrome {
+public class BigIntnextSmallestPalindrome {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
@@ -65,7 +66,11 @@ public class NextSmallestPalindrome {
     }
 }*/
 /*
-In Java, the long data type is a 64-bit signed primitive data type. It has a range from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (inclusive).
-  maximum length of digits (rather than the magnitude of the value), you can have up to 19 digits for a long variable. This is because 10^18 is the largest power of 10 that can be represented precisely in a long without loss of precision.
+In Java, the long data type is a 64-bit signed primitive data type. It has a range from
+ -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 (inclusive).
+  maximum length of digits (rather than the magnitude of the value),
+  you can have up to 19 digits for a long variable.
+  This is because 10^18 is the largest power of 10 that can be represented precisely in a long
+  without loss of precision.
  For example, the number 9,223,372,036,854,775,807 has 19 digits.
  Similarly for integer For example, the number 2,147,483,647 has 10 digits. so max 10^9*/

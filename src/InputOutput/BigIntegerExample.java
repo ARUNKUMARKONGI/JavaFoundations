@@ -16,11 +16,9 @@ public class BigIntegerExample {
         BigInteger b1 = new BigInteger(num1);
         BigInteger b2 = new BigInteger(num2);
 
-        // Perform operations
         BigInteger sum = b1.add(b2);
         BigInteger product = b1.multiply(b2);
 
-        // Display results
         System.out.println("Sum: " + sum);
         System.out.println("Product: " + product);
     }

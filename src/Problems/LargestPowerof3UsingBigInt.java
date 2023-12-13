@@ -8,7 +8,6 @@ public class LargestPowerof3UsingBigInt {
             BigInteger result = findLargestPowerOf3(num);
             System.out.println("The largest power of 3 less than " + num + " is: " + result);
         }
-
         private static BigInteger findLargestPowerOf3(BigInteger num) {
             BigInteger power = BigInteger.ZERO;
             BigInteger base = BigInteger.valueOf(3);
@@ -16,7 +15,6 @@ public class LargestPowerof3UsingBigInt {
             while (base.pow(power.intValue()).compareTo(num) < 0) {
                 power = power.add(BigInteger.ONE);
             }
-
             return base.pow(power.intValue() - 1);
         }
     }

@@ -21,4 +21,4 @@ public class LargestPowerof3{
 }
 
  /* int power = (int) (Math.log(num) / Math.log(3));
-        return (int) Math.pow(3, power);*/
+        return (int) Math.pow(3, power-1);*/
