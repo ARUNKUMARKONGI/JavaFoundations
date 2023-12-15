@@ -9,7 +9,7 @@ public class DateTime {
         // TODO Auto-generated method stub
         LocalDate joiningDate = LocalDate.of(2021, 12, 1);
        // LocalDate endDate = LocalDate.of(endYear, joiningMonth, joiningDay);
-        Period d = Period.between(joiningDate,LocalDate.now());  //replace now() with end date
+        Period d = Period.between(joiningDate,LocalDate.now());  //replace now() with enddate
         int days = d.getDays();
         int months = d.getMonths();
         int years = d.getYears();

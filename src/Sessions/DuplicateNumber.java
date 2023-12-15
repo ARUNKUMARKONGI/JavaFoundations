@@ -17,7 +17,7 @@ public class DuplicateNumber {
         }
         public static int findDuplicate(int[] nums) {
             int len = nums.length;
-            int[] cnt = new int[len + 1];
+            int[] cnt = new int[10000];
             for (int i = 0; i < len; i++) {
                 cnt[nums[i]]++;
                 if (cnt[nums[i]] > 1) {
