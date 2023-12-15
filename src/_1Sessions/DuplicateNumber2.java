@@ -1,6 +1,7 @@
-package Sessions;
+package _1Sessions;
 import java.util.Scanner;
-public class DuplicateNumber {
+
+public class DuplicateNumber2 {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +18,7 @@ public class DuplicateNumber {
         }
         public static int findDuplicate(int[] nums) {
             int len = nums.length;
-            int[] cnt = new int[10000];
+            int[] cnt = new int[len + 1];
             for (int i = 0; i < len; i++) {
                 cnt[nums[i]]++;
                 if (cnt[nums[i]] > 1) {
@@ -27,3 +28,7 @@ public class DuplicateNumber {
             return 0;
         }
     }
+
+
+
+//this approach takes extra count memory space complexity O(n)
