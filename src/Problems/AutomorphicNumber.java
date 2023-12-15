@@ -8,9 +8,9 @@ public class AutomorphicNumber {
         System.out.print("Input a number: ");
         int number = scanner.nextInt();
 
-        boolean isAutomorphic = isAutomorphicNumber(number);
+        boolean res = isAutomorphicNumber(number);
 
-        if (isAutomorphic) {
+        if (res) {
             System.out.println(number + " is an automorphic number!");
         } else {
             System.out.println(number + " is not an automorphic number.");
@@ -22,9 +22,10 @@ public class AutomorphicNumber {
     private static boolean isAutomorphicNumber(int num) {
         long square = (long) num * num;
 
-        String numStr = String.valueOf(num);
-        String squareStr = String.valueOf(square);
+        String n1 = String.valueOf(num);
+        String n2 = String.valueOf(square);
+       // String n3=Long.toString(square);
 
-        return squareStr.endsWith(numStr);
+        return n2.endsWith(n1);
     }
 }

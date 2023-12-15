@@ -1,4 +1,4 @@
-package Problems;
+package Sessions;
 import java.math.BigInteger;
 import java.util.Scanner;
 public class BigIntegerFactorial {
@@ -45,9 +45,3 @@ public class BigIntegerFactorial {
 
         return fact;
     }*/
-
- /*   int n=sc.nextInt();
-    BigInteger fact=BigInteger.ONE;
-        for(int i=1;i<=n;i++){
-                fact=fact.multiply(BigInteger.valueOf(i));
-                }*/

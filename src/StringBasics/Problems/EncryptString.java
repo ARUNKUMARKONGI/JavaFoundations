@@ -15,22 +15,21 @@ public class EncryptString {
 
         private static StringBuilder encryptName(StringBuilder name) {
             String alpha = "abcdefghijklmnopqrstuvwxyz";
-            StringBuilder newName = new StringBuilder();
+            StringBuilder str = new StringBuilder();
 
             for (char c : name.toString().toCharArray()) {
                 if (Character.isLetter(c)) {
-                    int location = alpha.indexOf(Character.toLowerCase(c));
-                    char newChar = alpha.charAt((location + 1) % 26);
+                    int loc = alpha.indexOf(Character.toLowerCase(c));
+                    char ch = alpha.charAt((loc + 1) % 26);
                     if (Character.isUpperCase(c)) {
-                        newChar = Character.toUpperCase(newChar);
+                        ch = Character.toUpperCase(ch);
                     }
-                    newName.append(newChar);
+                    str.append(ch);
                 } else {
-                    newName.append(c);
+                    str.append(c);
                 }
             }
-
-            return newName;
+            return str;
         }
     }
 

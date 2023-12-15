@@ -1,5 +1,4 @@
 package PatternProblems;
-
 import java.util.Scanner;
 
 public class Pattern1 {
