@@ -2,7 +2,7 @@ package Sessions;
 
 public class ToStringExample {
     public static void main(String[] args) {
-        Student st = new Student("Hello", 42);
+        Student st = new Student("Abhi", 42);
 
         String result = String.valueOf(st);
        // String result=st.toString();
