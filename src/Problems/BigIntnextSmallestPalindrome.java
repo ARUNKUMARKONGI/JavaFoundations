@@ -72,5 +72,7 @@ In Java, the long data type is a 64-bit signed primitive data type. It has a ran
   you can have up to 19 digits for a long variable.
   This is because 10^18 is the largest power of 10 that can be represented precisely in a long
   without loss of precision.
+  For example, let's consider the input of 10^18. The maximum value that a long can hold is 9,223,372,036,854,775,807.
+  Since 10^18 is greater than this maximum value, it falls outside the valid range.
  For example, the number 9,223,372,036,854,775,807 has 19 digits.
  Similarly for integer For example, the number 2,147,483,647 has 10 digits. so max 10^9*/

@@ -52,7 +52,6 @@ public class ArmstrongUsringExceptionHandling {
                 int digit = Character.getNumericValue(numStr.charAt(i));
                 sum += Math.pow(digit, length);
             }
-
             return sum == num;
         }
     }

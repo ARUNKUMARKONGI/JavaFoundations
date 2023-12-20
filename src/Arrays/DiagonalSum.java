@@ -20,7 +20,7 @@ public class DiagonalSum {
 
             for (int i = 0; i < len; i++) {
                 sum += matrix[i][i];
-                sum += matrix[i][len - 1 - i];
+                sum += matrix[i][len - 1 - i];  //in single loop we are summing
             }
 
             if (len % 2 == 1) {
@@ -48,7 +48,7 @@ class DiagonalSum{
         int sum=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<n;j++){
-                if(i==j || (i+j)==n-1){
+                if(i==j || (i+j)==n-1){  //this uses 2 loops
                     sum=sum+arr[i][j];
                 }
 

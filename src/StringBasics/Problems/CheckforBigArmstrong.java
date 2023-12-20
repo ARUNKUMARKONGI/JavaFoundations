@@ -16,7 +16,7 @@ public class CheckforBigArmstrong {
             }
         }
         public static boolean isArmstrongNumber(String numStr) {
-            int length = numStr.length();
+            int length = numStr.trim().length();
             long sum = 0;
             //BigInteger sum = BigInteger.ZERO;
             for (int i = 0; i < length; i++) {
