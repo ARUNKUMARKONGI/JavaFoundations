@@ -1,4 +1,4 @@
-package _1Sessions;
+package _1nextsession;
 import java.util.*;
 public class Integerbinary {
         public static void main(String[] args) {

@@ -1,28 +1,30 @@
 abstract class CoffeeTemplate {
     final void makeCoffee() {
+        addCondiments();
         brewCoffeeGrounds();
         boilWater();
         pourInCup();
-        addCondiments();
+
         System.out.println("Coffee is ready!");
     }
     abstract void addCondiments();
     abstract void brewCoffeeGrounds();
-
-    final void pourInCup() {
-        System.out.println("Pouring into cup");
-    }
     final void boilWater() {
         System.out.println("Boiling water");
     }
+    final void pourInCup() {
+        System.out.println("Pouring into cup");
+    }
+
 }
 class Coffee extends CoffeeTemplate {
-    void addCondiments() {
-        System.out.println("Adding sugar and milk");
-    }
     void brewCoffeeGrounds() {
         System.out.println("Brewing coffee grounds");
     }
+    void addCondiments() {
+        System.out.println("Adding sugar and milk");
+    }
+
 }
 
 public class FinalMethodCoffeeExample {

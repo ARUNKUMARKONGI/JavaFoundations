@@ -1,4 +1,4 @@
-package _1Sessions;
+package _1nextsession;
 import java.util.Scanner;
 
 public class DuplicateNumber2 {
