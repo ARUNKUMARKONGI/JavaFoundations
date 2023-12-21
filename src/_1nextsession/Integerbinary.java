@@ -6,12 +6,10 @@ public class Integerbinary {
             System.out.print("Enter an integer: ");
             int num = scanner.nextInt();
 
-            // Convert to binary, hex, and octal
             String binary = Integer.toBinaryString(num);
             String hex = Integer.toHexString(num);
             String octal = Integer.toOctalString(num);
 
-            // Display the results
             System.out.println("Binary: " + binary);
             System.out.println("Hexadecimal: " + hex);
             System.out.println("Octal: " + octal);
