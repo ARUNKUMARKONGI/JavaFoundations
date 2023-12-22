@@ -35,3 +35,21 @@ public class UniqueUsingHashSet {
         }
     }
 }
+// Input: 3 1 3 4 2
+
+// Iteration 1: array[0] = 3
+// seenNumbers: {3}, uniqueSet: {3}
+
+// Iteration 2: array[1] = 1
+// seenNumbers: {3, 1}, uniqueSet: {3, 1}
+
+// Iteration 3: array[2] = 3
+// seenNumbers: {3, 1}, uniqueSet: {1} (removed 3 as it's no longer unique)
+
+// Iteration 4: array[3] = 4
+// seenNumbers: {3, 1, 4}, uniqueSet: {1, 4}
+
+// Iteration 5: array[4] = 2
+// seenNumbers: {3, 1, 4, 2}, uniqueSet: {1, 4, 2}
+
+// Unique Elements: 1 4 2

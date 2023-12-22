@@ -32,3 +32,15 @@ public class DuplicateNumberAnyRange {
 
 
 //this approach takes extra count memory space complexity O(n)
+// Input: 3 1 3 4 2
+
+// Iteration 1: nums[0] = 3
+// cnt[3] is incremented to 1, no duplicate found
+
+// Iteration 2: nums[1] = 1
+// cnt[1] is incremented to 1, no duplicate found
+
+// Iteration 3: nums[2] = 3
+// cnt[3] is incremented to 2, duplicate found, returns 3
+
+// Final result: 3 (the first duplicate encountered in the array)
