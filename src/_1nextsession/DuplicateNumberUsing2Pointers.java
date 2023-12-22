@@ -1,6 +1,6 @@
 package _1nextsession;
 import java.util.Scanner;
-public class DuplicateOptimized {
+public class DuplicateNumberUsing2Pointers {
 
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
