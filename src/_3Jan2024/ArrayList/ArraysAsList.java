@@ -1,4 +1,4 @@
-package _3Jan2024;
+package _3Jan2024.ArrayList;
 
 import java.util.Arrays;
 import java.util.List;
