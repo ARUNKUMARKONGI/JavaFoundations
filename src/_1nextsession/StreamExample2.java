@@ -9,7 +9,7 @@ public class StreamExample2 {
     {
         List<String> lst = Arrays.asList("JAVA", "Java", "DS", "C", "C#");
         Optional<String> res = lst.stream()
-                .filter(x -> !x.equalsIgnoreCase("java"))
+                .filter(x -> !x.equalsIgnoreCase("java")).skip(1)
                 .findFirst();
         if (res.isPresent())
         {
