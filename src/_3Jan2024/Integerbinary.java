@@ -1,4 +1,4 @@
-package _1nextsession;
+package _3Jan2024;
 import java.util.*;
 public class Integerbinary {
         public static void main(String[] args) {

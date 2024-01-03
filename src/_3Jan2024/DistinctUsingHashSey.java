@@ -1,9 +1,6 @@
-package _1nextsession;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-public class DistinctElementsUsingHashMap {
-
+package _3Jan2024;
+import java.util.*;
+public class DistinctUsingHashSey {
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             int n = scanner.nextInt();
@@ -18,18 +15,12 @@ public class DistinctElementsUsingHashMap {
         }
 
         private static void printDistinctElements(int[] array) {
-            Map<Integer, Integer> res = new HashMap<>();
+            Set<Integer> set = new HashSet<>();
 
             for (int num : array) {
-                res.put(num, res.get(num) + 1);
-               // frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
-            }
-
-            for (Map.Entry<Integer, Integer>  m: res.entrySet()) {
-                if (m.getValue() == 1) {
-                    System.out.print(m.getKey() + " ");
+                if (set.add(num)) {
+                    System.out.print(num + " ");
                 }
             }
         }
     }
-
