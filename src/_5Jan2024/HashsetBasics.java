@@ -17,6 +17,11 @@ public class HashsetBasics {
             Integer[] arr = new Integer[set1.size()];
             set1.toArray(arr);
 
+           // int[] arr = set1.stream().mapToInt(Integer::intValue).toArray();
+           /* int index = 0;
+            for (int ele : set1) {
+                arr[index++] = ele;
+            }*/
             System.out.println("Array elements: ");
             for(int ele : arr){
                 System.out.println(ele);
