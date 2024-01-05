@@ -1,4 +1,4 @@
-package HashsetProblems;
+package CollectionsBasicsIntro;
 import java.util.*;
 public class DuplicateusingHashset {
         public static void main(String[] args) {

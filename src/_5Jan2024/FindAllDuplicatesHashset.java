@@ -1,8 +1,8 @@
-package _3Jan2024;
+package _5Jan2024;
 import java.util.*;
 
 
-public class FindAllDuplicates {
+public class FindAllDuplicatesHashset {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

@@ -1,4 +1,4 @@
-package _3Jan2024.ArrayList;
+package CollectionsBasicsIntro.ArrayList;
 import java.util.ArrayList;
 class students {
     String name;
@@ -63,7 +63,7 @@ public class arraylistexample {
         this.name = name;
     }
 }
-        ArrayList<college> cl=new ArrayList<>();
+        CollectionsBasicsIntro.ArrayList<college> cl=new CollectionsBasicsIntro.ArrayList<>();
         Scanner sc=new Scanner(System.in);
         for(int i=1;i<=2;i++)
         {

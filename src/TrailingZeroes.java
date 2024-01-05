@@ -1,4 +1,3 @@
-package _3Jan2024;
 import java.util.Scanner;
 public class TrailingZeroes {
         public static void main(String[] args) {

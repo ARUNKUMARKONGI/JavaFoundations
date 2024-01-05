@@ -1,4 +1,4 @@
-package _3Jan2024.ArrayList;
+package CollectionsBasicsIntro.ArrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -43,14 +43,14 @@ public class ArrayListBasics {
         }
         }
 
-    /*the ArrayList would need to resize its internal array multiple times as elements are added,
+    /*the CollectionsBasicsIntro.ArrayList would need to resize its internal array multiple times as elements are added,
         which can result in more memory reallocations and potentially impact performance.
 
 Using the interface type List allows for flexibility, as it doesn't tie the
  implementation to a specific class. explain this with example
 
         List<String> myList;
-        // Case 1: Use an ArrayList
-        myList = new ArrayList<>();
+        // Case 1: Use an CollectionsBasicsIntro.ArrayList
+        myList = new CollectionsBasicsIntro.ArrayList<>();
         // Case 2: Switch to a LinkedList
         myList = new LinkedList<>();*/
