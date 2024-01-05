@@ -51,7 +51,10 @@ public class TreeMapBasics {
                 // Polling and displaying the last entry (removing it from the TreeMap)
         Map.Entry<Integer, String> lastEntry = tmap.pollLastEntry();
         System.out.println("Last Entry (Polled): " + lastEntry);
+
         System.out.println("TreeMap after polling last entry: " + tmap);
+        System.out.println(tmap.pollLastEntry());
+        System.out.println(tmap);
             }
         }
 
